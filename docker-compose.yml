@@ -28,7 +28,7 @@ services:
             - '4022:22'
     
     redmine:
-        image: soljsn/redmine-all-in-one:0.2
+        image: soljsn/redmine-all-in-one:0.3
         container_name: dev_redmine
         ports:
             - '3080:80'
